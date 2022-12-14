@@ -46,6 +46,7 @@ export default function Sliders() {
             <SwiperSlide key={data.id}>
               <p>{data.heading}</p>
               <img src={data.imgSrc} alt="" />
+              <img className="ellipse" src="./Ellipse.png" alt="" />
             </SwiperSlide>
           ))}
         </Swiper>
