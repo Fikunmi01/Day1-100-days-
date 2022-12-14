@@ -1,0 +1,70 @@
+.landing-page {
+    display: flex;
+    align-items: center;
+}
+
+.slide {
+    background-color: #007AFF;
+    width: 40%;
+}
+
+.form-section {
+    width: 60%;
+}
+
+.form-section img {
+    width: 30%;
+    margin: auto;
+    left: 15%;
+    position: relative;
+}
+
+@media screen and (max-width:600px) {
+    .landing-page {
+        display: flex;
+        flex-direction: column;
+    }
+    .slide {
+        width: 52rem;
+        position: relative;
+    }
+
+    .form-section {
+        width: 100%;
+        top: 12rem;
+        position: relative;
+    }
+
+    .form-section img {
+        left: 10%;
+    }
+}
+
+@media screen and (min-width:425px) {
+    .slide {
+        width: 43rem;
+    }
+}
+
+@media screen and (min-width:500px) {
+    .slide {
+        width: 100%;
+        margin: auto;
+    }
+}
+
+@media screen and (min-width:600px) {
+   .landing-page {
+    position: relative;
+    overflow: hidden;
+   }
+   .slide {
+    width: 40%;
+   }
+
+   .form-section img {
+    left: 7%;
+   }
+}
+
+

@@ -1,0 +1,243 @@
+.signup-div {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+
+.signup {
+    padding-left: 15%;
+    padding-bottom: 3%;
+
+}
+
+.signup .logo {
+    width: 8.2rem;
+    padding-bottom: 2%;
+    right:  80rem;
+    bottom: 100%;
+    position: absolute;
+}
+
+.signup h2 {
+    padding-top: 4%;
+    font-size: 1.9rem;
+}
+
+.signup p {
+    font-size: 1.3rem;
+    color: #2D3748;
+}
+
+.form-span {
+    display: flex;
+    padding-bottom: 1rem;
+    gap: 2rem;
+}
+
+.form-span div{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-span div input {
+    width: 25.3rem;
+    height: 2.4rem;
+    border: 0.1rem solid #D1D1D1;
+}
+
+.form-span div input:focus {
+    padding-left: 2%;
+    font-family: 'Poppins', sans-serif;
+    color: #2D3748;
+    color: red;
+}
+
+.form-span label {
+    font-size: 1.2rem;
+    color: #2D3748;
+}
+
+.checkbox input {
+    right: 49%;
+    position: relative;
+    display: block;
+}
+
+.checkbox {
+    display: flex;
+    flex-direction: column;
+}
+
+.checkbox p {
+    bottom: 2.3rem;
+    line-height: 0.1;
+    left: 2rem;
+    font-size: 1.2rem;
+    position: relative;
+}
+
+.button-div {
+    display: flex;
+    gap: 2rem;
+}
+
+.create {
+    background-color: #007AFF;
+    border: 0.1rem solid #007AFF;
+    padding: 0.8rem 9rem;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+
+.log-in {
+    background-color: #2D3748;
+    border: 0.1rem solid #2D3748;
+    padding: 0.8rem 5.5rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    border-radius: 0.3rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    gap: 3.1rem;
+}
+
+.log-in img {
+    width: 1.5rem;
+}
+
+.highlight {
+    color: #007AFF;
+    cursor: pointer;
+}
+
+#lowerP {
+    font-size: 1.2rem;
+}
+
+
+
+@media screen and (max-width:600px) {
+    .signup-div {
+        width: 100%;
+        position: relative;
+    }
+
+    .form-span {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .signup {
+        padding-left: 10%;
+    }
+
+    .button-div {
+        display: flex;
+        flex-direction: column;
+    }
+} 
+
+
+@media screen and (min-width:500px) {
+    .checkbox input {
+        right: 47%;
+    }
+
+}
+
+@media screen and (min-width:600px) {
+    .checkbox input {
+        right: 48.5%;
+    }
+
+    .form-span {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .button-div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .log-in {
+        display: none;
+    }
+
+    .signup .logo {
+        padding-bottom: 0%;
+        bottom: 98%;
+        width: 7rem;
+        left: 2.5rem;
+    }
+
+    .signup {
+        padding-left: 7%;
+    }
+
+    .signup h2 {
+        font-size: 100%;
+    }
+
+    .signup p {
+        font-size: 100%;
+    }
+    .form-span {
+        gap: 0.5rem;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .form-span {
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+    }
+
+    .signup h2 {
+        font-size: 200%;
+    }
+
+    .signup .logo {
+        width: 8.2rem;
+        left: 3.5rem;
+    }
+
+    .button-div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-span div input {
+        width: 100%;
+    }
+
+
+    .log-in {
+        padding: 0.8rem 11rem;
+        gap: 3rem;
+        display: flex;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .signup .logo {
+        left: 4rem;
+    }
+
+    .log-in {
+        padding: 0.8rem 19rem;
+        gap: 1.5rem;
+    }    
+    
+    .form-span div input {
+        width: 25.3rem;       
+    }
+}

@@ -1,0 +1,109 @@
+.slider-div {
+    width: 32rem;
+    flex-direction: row;
+    margin: auto;
+    height: 100vh;
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    position: relative;
+    align-items: center;
+}
+
+.slider-div img {
+    width: 100%;
+}
+
+.slider-div p {
+    font-size: 1.8rem;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+    padding-bottom: 10%;
+}
+
+.mySwiper {
+    height: 80vh;
+
+}
+
+.swiper-pagination {
+    margin: auto;
+    top: 53rem;
+}
+
+.swiper-pagination .swiper-pagination-bullet {
+    width: 1.5rem;
+    height: 1.5rem;
+    border: url(../image/Ellipse3.png);
+
+    background-repeat: no-repeat;
+}
+
+.swiper-pagination .swiper-pagination-bullet::after {
+    display: none;
+}
+
+.swiper-pagination .swiper-pagination-bullet-active {
+    background-image: url(../image/Group18.png);
+    width: 1.5rem;
+    background-repeat: no-repeat;
+
+}
+
+.swiper-pagination .swiper-pagination-bullet-active::after {
+    display: none;
+}
+
+
+@media screen and (max-width:600px) {
+    .slider-div {
+        width: 28rem;
+        margin: auto;
+        position: relative;
+    }
+
+
+}
+
+
+@media screen and (min-width:375px) {
+    .slider-div {
+        margin: auto;
+        position: relative;
+    }
+}
+
+
+@media screen and (min-width:500px) {
+    .mySwiper {
+        height: 85%;
+    }
+
+}
+
+@media screen and (min-width:600px) {
+    .slider-div {
+        width: 25rem;
+    }
+    .mySwiper {
+        height: 100%;
+        top: 12%;
+        margin: auto;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .slider-div p{
+        width: 100%;
+        font-size: 160%;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .slider-div {
+        width: 60%;
+    }
+
+}
